@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider{
+    width: 80px;
+    max-width: 500px;
+    height: 25vh;
+    max-height: 150px;
+    position: relative;
+
+}
+
+#slider img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
